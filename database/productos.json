@@ -1,0 +1,17 @@
+[
+  {
+    "name": "lapicera",
+    "price": 20,
+    "image": "https://http2.mlstatic.com/D_NQ_NP_876006-MLA32697887039_102019-O.jpg"
+  },
+  {
+    "name": "goma de borrar",
+    "price": "10",
+    "image": "https://diariolibre.blob.core.windows.net.optimalcdn.com/images/binrepository/shutterstock-105097223_16328934_20210512130119-focus-0-0-375-240.jpg"
+  },
+  {
+    "name": "plasticola",
+    "price": "100",
+    "image": "http://d3ugyf2ht6aenh.cloudfront.net/stores/601/518/products/640324-mla27783638596_072018-o-2e117c31c7615b5f7415393877544664-640-0.jpg"
+  }
+]

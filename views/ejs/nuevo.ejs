@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+  <header>
+    <ul>
+      <li><a href="/productos">Ver Productos</a></li>
+    </ul>
+  </header>
+  <div class="contenedorForm">
+    <form action="/productos/add" method="post" >
+        <p>Nombre: <input type="text" name="name" size="40"></p>
+        <p>Precio: <input type="number" name="price"></p>
+        <p>foto URL:<input type="text" name="image" ></p>
+        <p>
+          <input type="submit" value="Enviar">
+        </p>
+      </form>
+  </div>
+</body>
+</html>

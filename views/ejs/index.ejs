@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <link rel="stylesheet" href="/static/css/index.css">
+</head>
+
+<body>
+    <header >
+      <ul class="headerList">
+        <li><a href="/productos/add">Agregar un Producto</a></li>
+      </ul>
+    </header>
+    <div class="contenedorTabla">
+      <table>
+          
+            <% articulos.forEach(function(articulo) {%>
+              <tr>
+              <th><%= articulo.name %></th>
+              <th><%= articulo.price %></th>
+              <th><img src="<%= articulo.image %>" width="100"></th>
+              </tr>
+            <% }) %>
+          </tr>
+      
+      </table>
+    </div>
+</body>
+</html>

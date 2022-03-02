@@ -1,0 +1,31 @@
+html 
+    head
+        link(
+            rel="stylesheet"
+            href="/static/css/index.css"
+            type="text/css")
+    
+    body 
+        header 
+            ul
+               
+                li 
+                    a(href="/productos/add")  Agregar Producto
+
+        div(class="contenedorTabla")
+            table 
+                thead 
+                    tr 
+                        td Nombre
+                        td Precio
+                        td Foto
+                  
+                tbody 
+                    each a in articulos 
+                        tr
+                            td= a.name
+                            td= a.price
+                            td 
+                                img( width="100" src=a.image)
+                    else 
+                        td no se encontrod datos

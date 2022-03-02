@@ -1,0 +1,112 @@
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+ul li {
+  margin-right: 120px;
+}
+
+li a {
+  text-decoration: underline;
+  font-size: 25px;
+  color: black;
+}
+
+.contenedorTabla {
+  display: grid;
+  place-content: center;
+  width: 100%;
+  margin-top: 50px;
+}
+
+table {
+  width: 500px;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+tr {
+  text-align: center;
+}
+
+/*estilos result*/
+.contenedorMensaje {
+  text-align: center;
+  font-size: 30px;
+  color: rgb(211, 28, 22);
+}
+
+header {
+  margin-left: 25px;
+}
+
+.contenedorForm {
+  display: grid;
+  place-content: center;
+}
+
+ul {
+  list-style: none;
+}
+
+li a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 25px;
+  text-decoration: underline;
+}
+
+p {
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+input[type="text"] {
+  width: 200px;
+  height: 27px;
+  margin-left: 10px;
+}
+input[type="number"] {
+  width: 60px;
+  height: 30px;
+  margin-left: 10px;
+}
+
+input[type="submit"] {
+  width: 66px;
+  height: 30px;
+  border-style: none;
+  font-size: 15px;
+  background-color: rgb(34, 233, 16);
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+
+form {
+  border: #000000;
+  border-style: double;
+  padding: 10px;
+}
+
+.contenedorChat {
+  margin-top: 100px;
+}
+
+#chatContenedor {
+  margin-top: 20px;
+}
+#chatForm {
+  margin-top: 200px;
+}
+
+.desabilitar {
+  opacity: 0.5;
+  pointer-events: none;
+  cursor: default;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <link rel="stylesheet" href="/static/css/index.css">
+</head>
+
+<body>
+    <div class="contenedorForm">
+      <form action="/productos/add" method="post" id="form">
+          <p>Nombre: <input type="text" name="name" size="40"></p>
+          <p>Precio: <input type="number" name="price"></p>
+          <p>foto URL:<input type="text" name="image" ></p>
+          <p>
+            <input type="submit" value="Enviar">
+          </p>
+        </form>
+    </div>
+    <div class="contenedorTabla">
+      <table id="tabla">
+          <tr>
+            <th>Nombre</th>
+            <th>Precio</th>
+            <th>Foto</th>
+          </tr>
+          
+      </table>
+    </div>
+
+    <div class="contenedorChat">
+        <input type="text" placeholder="Su email" id="email"> 
+        <div id="chatContenedor"></div>
+        <form id="chatForm">
+          <input type="text" placeholder="Escribir aca" id="mensaje"> 
+          <input type="submit" value="Enviar" id="btnEnviarMesange">
+        </form>
+    </div>
+</body>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="/static/js/websocket.js"></script>
+</html>

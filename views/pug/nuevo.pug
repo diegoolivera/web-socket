@@ -1,0 +1,23 @@
+html
+    head
+        link(
+            rel="stylesheet"
+            href="/static/css/style.css"
+            type="text/css")
+    
+    body 
+        header 
+            ul 
+                li 
+                    a(href="/productos") Ver Productos
+                    
+        div(class="contenedorForm")
+            form(action="/productos/add" method="post" ) 
+                p Nombre:
+                    input(type="text" name="name" size="40") 
+                p Precio:
+                    input(type="number" name="price")
+                p foto URL:
+                    input(type="text" name="image")
+                p  
+                    input(type="submit" value="Enviar") 
